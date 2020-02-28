@@ -13,7 +13,7 @@ namespace PierresBakery.Models
       Total = total;
     }
 
-    public void pastryTotal()
+    public void pastryBag()
     {
       calculatePastryPrice();
     }
