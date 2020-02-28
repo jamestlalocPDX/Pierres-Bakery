@@ -27,7 +27,13 @@ _This application will build a C# codebase for Pierre's Bakery. It will greet an
 4. Open this repository from within your terminal.
 5. Use `dotnet run` to start the application.
 
-
+*Downloading this repository:*
+1. On the top right of this page, click the "Clone or download" button.
+2. Click on "Download ZIP."
+3. Click the downloaded file to unzip and extract this repository to your desired directory.
+4. Within your terminal, navigate to the directory where you saved this repository.
+5. Open the repository within your terminal.
+6. Use `dotnet run` to start the application.
 
 ## **Known Bugs**
 
