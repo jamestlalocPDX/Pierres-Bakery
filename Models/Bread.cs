@@ -6,7 +6,7 @@ namespace PierresBakery.Models
 
     public Bread(int price)
     {
-      _price = price;
+      Price = price;
     }
   }
 }
