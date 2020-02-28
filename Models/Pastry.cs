@@ -2,7 +2,7 @@ namespace PierresBakery.Models
 {
   public class Pastry
   {
-    private int _price;
+    public int Price { get; set; }
 
     public Pastry(int price)
     {
