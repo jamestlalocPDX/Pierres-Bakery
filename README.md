@@ -12,7 +12,7 @@ _This application will build a C# codebase for Pierre's Bakery. It will greet an
 
 | Behavior | Input | Output |
 |----------|:-----:|--------|
-| User enters "Yes" or "No" to decide whether or not to purchase a pastry. | Yes | "Wonderful! Here are today's specials. <br> Bread: Buy 2 loaves, get 1 free. <br> Pastry: Buy 1 for $2 or 3 for $5 |
+| User enters "Yes" or "No" to decide whether or not to purchase bread or pastry. | Yes | "Wonderful! Here are today's specials. <br> Bread: Buy 2 loaves, get 1 free. <br> Pastry: Buy 1 for $2 or 3 for $5 |
 | User enters a number for a loaf of bread. | 1 | $5, 1 loaf. |
 | User enters a number for a single pastry. | 1 | $2, 1 pastry. |
 | User enters a number for 2 loaves of bread. | 2 | $10, 3 loaves. |
