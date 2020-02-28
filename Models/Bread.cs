@@ -21,13 +21,13 @@ namespace PierresBakery.Models
 
     private void calculateBreadPrice()
     {
-      if (hearty.Amount == 3)
+      if (Amount == 3)
       {
-        hearty.Total = 5;
+        Total = 5;
       }
       else
       {
-        hearty.Total = (hearty.Price * hearty.Amount);
+        Total = (Price * Amount);
       }
     }
   }
