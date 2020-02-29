@@ -20,9 +20,9 @@ namespace PierresBakery.Models
 
     private void calculatePastryPrice()
     {
-     if (Amount == 3)
+     if (Amount > 3)
       {
-        Total = 5;
+        Total = (Price * Amount) - 1;
       }
       else
       {
