@@ -30,13 +30,11 @@ namespace PierresBakery
         Console.WriteLine("-------------------------------------");
         
         Console.WriteLine("How many loaves of hearty bread would you like?");
-        int customerBreadAmount = int.Parse(Console.ReadLine());
-        hearty.Amount = customerBreadAmount;
+        hearty.Amount = int.Parse(Console.ReadLine());
 
         Console.WriteLine("How many tasty pastries would you like?");
-        int customerPastryAmount = int.Parse(Console.ReadLine());
-        tasty.Amount = customerPastryAmount;
-
+        tasty.Amount = int.Parse(Console.ReadLine());
+        
         tasty.pastryBag();
         hearty.breadBag();
 
