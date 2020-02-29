@@ -10,7 +10,7 @@ _This application will build a C# codebase for Pierre's Bakery. It will greet an
 
 ## Preview
 
-<img src="./img/preview_image.jpg">
+<img src="./img/preview_image.png">
 
 ## **Behavior Driven Development**
 
