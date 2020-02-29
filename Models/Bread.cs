@@ -23,7 +23,7 @@ namespace PierresBakery.Models
     {
       if (Amount % 2 == 0)
       {
-        Total = 5;
+        Total = (Price * Amount);
         Amount ++;
       }
       else
