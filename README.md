@@ -6,17 +6,29 @@
 
 ## **Description**
 
-_This application will build a C# codebase for Pierre's Bakery. It will greet and allow a user to choose whether or not they would like to purchase loaves of bread or tasty pastries. Before choosing what to purchase, the user will be also be prompted a special offer for buying multiple loaves of bread, or multiple delicious pastries, available only at Pierre's Bakery!_
+_This application will build a C# codebase for Pierre's Bakery. It will greet and allow a user to choose whether or not they would like to purchase hearty loaves of bread or tasty pastries. Before choosing what to purchase, the user will be also be prompted a special offer for buying multiple loaves of bread, or multiple pastries that are available only at Pierre's Bakery!_
 
 ## **Behavior Driven Development**
 
 | Behavior | Input | Output |
 |----------|:-----:|--------|
-| User enters "Yes" or "No" to decide whether or not to purchase bread or pastry. | Yes | "Wonderful! Here are today's specials. <br> Bread: Buy 2 loaves, get 1 free. <br> Pastry: Buy 1 for $2 or 3 for $5 |
-| User enters a number for a loaf of bread. | 1 | $5, 1 loaf. |
-| User enters a number for a single pastry. | 1 | $2, 1 pastry. |
-| User enters a number for 2 loaves of bread. | 2 | $10, 3 loaves. |
-| User enters a number for 3 tasty pastries. | 3 | $5, 3 tasty pastries. |
+| Customer enters "Yes" to decide whether or not to purchase bread or pastry. | Yes | "Wonderful! Here are today's specials. <br> Bread: Buy 2 hearty loaves, get 1 free. <br> Pastry: Buy 1 tasty pastry for $2 or 3 for $5 |
+| Customer enters "No" to decide whether or not to purchase bread or pastry. | No | "Thank you for stopping by Pierre's Bakery!" <br> "We hope to see you back soon. Have a nice Day!" |
+| Customer enters an amount for a hearty loaf of bread. | 1 | $5, 1 hearty loaf. |
+| Customer enters an amount for a single tasty pastry. | 1 | $2, 1 tasty pastry. |
+| Customer enters an amount for 2 hearty loaves of bread. | 2 | $10, 3 hearty loaves. |
+| Customer enters an amount for 3 tasty pastries. | 3 | $5, 3 tasty pastries. |
+| Customer enters an amount for both bread and pastry. | 2, 3 | $15, 2 hearty loaves and 3 tasty pastries. |
+
+## **Minimum Viable Product (MVP)**
+
+The MVP of this application is to allow potential customers to choose whether or not they would like to purchase anything, see the day's specials, choose the amount of bread and/or pastry they would like, and see that in their detailed order information as well as the total of their order.
+
+Stretch goals include:
+
+* Allow potential customers to buy different kinds of Bread and Pastries.
+* Add additional deals that fall on different days of the week.
+* Allow potential customers to continue adding to their cart/order.
 
 ## **Setup/Installation**
 
