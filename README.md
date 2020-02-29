@@ -8,6 +8,10 @@
 
 _This application will build a C# codebase for Pierre's Bakery. It will greet and allow a user to choose whether or not they would like to purchase hearty loaves of bread or tasty pastries. Before choosing what to purchase, the user will be also be prompted a special offer for buying multiple loaves of bread, or multiple pastries that are available only at Pierre's Bakery!_
 
+## Preview
+
+<img src= "./img/preview_image.jpg">
+
 ## **Behavior Driven Development**
 
 | Behavior | Input | Output |
