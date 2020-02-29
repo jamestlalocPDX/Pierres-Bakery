@@ -21,9 +21,10 @@ namespace PierresBakery.Models
 
     private void calculateBreadPrice()
     {
-      if (Amount == 3)
+      if (Amount % 2 == 0)
       {
         Total = 5;
+        Amount ++;
       }
       else
       {
